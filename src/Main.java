@@ -33,8 +33,9 @@ public class Main {
                     break;
                 case 3:
                     Resultado = Dato1*Dato2;
+                    break;
                 case 4:
-                    Resultado = Dato1/Dato2;
+                    Resultado = (double) Dato1 /Dato2;
                     break;
                 default:
                     System.out.println("Por favor ingrese una opcion valida");
